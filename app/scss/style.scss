@@ -65,6 +65,14 @@
         height: 50px;
         background-color: #fcd7b6;
         border-radius: 20px;
+        position: relative;
+    }
+    &__wrapper::after{
+        position: absolute;
+        content: '';
+        border: 1px solid #fde7d3;
+        height: 32px;
+        left: 49%;
     }
     &__btn{
         display: flex;
