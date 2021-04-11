@@ -1,0 +1,42 @@
+// $accent-color: #;
+$default: #436372;
+$title: #1a1a1a;
+$bg-item: #a3bbc8;
+
+%rubik-400{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+%rubik-500{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+%dmsans-400{
+    font-family: 'DM-Sans', sans-serif;
+    font-weight: 400;
+}
+
+%dmsans-500{
+    font-family: 'DM-Sans ', sans-serif;
+    font-weight: 500;
+}
+
+%dmsans-700{
+    font-family: 'DM-Sans', sans-serif;
+    font-weight: 700;
+}
+
+%poppins-700{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+%btn{
+    padding: 14px 16px;
+    background-color: $bg-item;
+    @extend %dmsans-500;
+    color: #fff;
+    
+}
